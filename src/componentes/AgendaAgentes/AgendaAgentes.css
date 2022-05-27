@@ -1,0 +1,60 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.sec-calendario-cuadro{
+    width: 60rem;
+    height: 30rem; 
+}
+
+.sec-calendario-titulo{
+    width: 100%;
+    height: 10%;
+    background-color: #2448C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px; 
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.secretaria-calendario {
+    max-width: 100%;
+}
+
+.secretaria-calendario table {
+    height: 25rem;
+}
+
+
+.btn-volver3 button {
+    margin-top: 2rem;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #2448C8;
+    padding: 1rem 1.5rem;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2448C8;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+}
+.login_container-agenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-image: url('../../imagenes/fondoGris.png');
+    height: 90vh;
+    font-family: 'Roboto';
+    position: relative;
+    overflow: hidden;
+}
+.btn-volver3 a{
+    text-decoration: none;
+}

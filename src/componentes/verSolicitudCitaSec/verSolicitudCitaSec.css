@@ -1,0 +1,115 @@
+.solicitud-cita-sec-cuadro{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-attachment: fixed;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+ 
+.login_container-cita{
+    gap:0;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../imagenes/fondoGris.png');
+    font-family: 'Roboto';
+    position: relative;
+    overflow: hidden;
+}
+
+.solicitud-cita-sec-cuadro-titulo {
+    background-color: #2448C8;
+    color: white;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0.5rem;
+}
+
+.solicitud-cita-sec-cuadro-datos {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.solicitud-cita-sec-tabla-titulo{
+    font-size: 20px;
+}
+
+.solicitud-cita-sec-tabla td{ 
+   height: 3rem;
+   text-align: center;
+}
+
+.solicitud-cita-sec-tabla-agregar {
+    background: green;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.solicitud-cita-sec-tabla-modificar {
+    background: rgb(186, 152, 3);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.25rem;
+    border: none;
+    cursor: pointer;
+}
+.solicitud-cita-sec-tabla-eliminar {
+    background: rgb(187, 1, 1);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* .btn-volver2 important{
+    display: flex;
+    width: 30rem;
+    height: 5%;
+    align-items: center;
+    justify-content: end;
+} */
+
+.btn-volver2 button {
+    margin-top: 1rem;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #2448C8;
+    padding: 1rem 1.5rem;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2448C8;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-volver2 a{
+    text-decoration: none;
+}

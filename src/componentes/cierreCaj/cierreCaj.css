@@ -1,0 +1,123 @@
+
+.login_container-cierre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-image: url('../../imagenes/fondoGris.png');
+    height: 90vh;
+    font-family: 'Roboto';
+    position: relative;
+    overflow: hidden;
+}
+
+.cierre-caja-cuadro{
+    background-color: white;
+    width: 75%;
+    height: 80%;
+    margin-top: 2rem;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+    border-radius: 0.5rem;
+    background-attachment: fixed;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+ 
+
+.cierre-caja-cuadro-titulo {
+    background-color: #2448C8;
+    color: white;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0.5rem;
+}
+
+.cierre-caja-cuadro-datos {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+
+}
+
+.cierre-caja-tabla-titulo{
+    font-size: 18px;
+}
+
+.cierre-caja-tabla td{ 
+   height: 2rem;
+   text-align: center;
+}
+
+.cierre-caja-tabla-detalle {
+    background: green;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cierre-caja-tabla-fin{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 5rem;
+}
+
+.cuerpo-form-dcha-boton1 {
+    margin-top: -5rem;
+    margin-bottom: 4rem;
+    background: #2448C8;
+     border-radius: 10px;
+     font-weight: 400;
+     font-size: 20px;
+     color: #fff;
+     padding: .5rem 1.5rem;
+     border: none;
+     cursor: pointer;
+ }
+
+ 
+.btn-container-cierre{
+    width: 30%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.boton-volver-Menu-cajera {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #2448C8;
+    padding: .5rem 1rem;
+    border: 1px solid #2448C8;
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+
+.cuerpo-form-boton-cajera {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    background: #2448C8;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+ }

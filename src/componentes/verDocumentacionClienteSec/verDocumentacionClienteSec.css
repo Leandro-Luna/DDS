@@ -1,0 +1,187 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../../imagenes/fondoGris.png');
+    height: 90vh;
+    font-family: 'Roboto';
+    position: relative;
+    overflow: hidden;
+}
+
+.docCliente-sec-cuadro{
+    background-color: white;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-attachment: fixed;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.docCliente-sec-cuadro-titulo{
+    background-color: #2448C8;
+    color: white;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0.5rem;
+}
+.docCliente-sec-cuadro-datos{
+    width: 98%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.docCliente-sec-cuadro-tabla-titulo{
+    font-size: 20px;
+}
+.docCliente-sec-cuadro-tabla td{
+    height: 3rem;
+    text-align: center;
+}
+.docCliente-sec-cuadro-tabla-ver{
+    background: green;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.25rem;
+    width: 5rem;
+    border: none;
+    cursor: pointer;
+}
+.docCliente-sec-cuadro-tabla-modificar {
+    background: rgb(186, 152, 3);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.25rem;
+    border: none;
+    cursor: pointer;
+    width: 5rem;
+}
+.registrarDocumentacionCliente {
+    background: #2448C8;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-volver4 button {
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #2448C8;
+    padding: 1rem 1.5rem;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2448C8;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-container a{
+    text-decoration: none;
+}
+
+.btn-container{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.docCliente-sec-popup-fondo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.401);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+.docCliente-sec-popup-cuadro {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+.docCliente-sec-popup-cuadro-sup{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: end;
+    background-color: #2448C8;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.docCliente-sec-popup-cuadro-cerrar{
+    background: rgb(187, 1, 1);
+    border-radius: 0.25rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.25rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+.docCliente-sec-popup-cuadro-inf{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 1rem;
+}
+.docCliente-sec-popup-cuadro-inf button {
+    background-color: #2448C8;
+    border-width: 0px;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 6rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+.docCliente-sec-agregar {
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #2448C8;
+    padding: 1rem 1.5rem;
+    font-size: 15px;
+    color: #2448C8;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+}

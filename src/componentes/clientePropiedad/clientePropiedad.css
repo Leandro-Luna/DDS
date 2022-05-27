@@ -1,0 +1,46 @@
+.imagen {
+    height: 41.5vh;
+}
+ .cuadroprincipal {
+    margin-top: 3rem;
+    margin-right: 17rem;
+    display: flex;
+    justify-content: center;
+    
+ }
+.cuadro {
+    background-color: white;
+    font-size: 30px;
+    padding: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 2rem;
+    height: 41.5vh;
+}
+
+.textosecundario1 {
+    font-size: 20px;
+    margin-top: 3rem;
+
+}
+.textosecundario2 {
+    font-size: 20px;
+    margin-top: 1rem;
+
+}
+
+.cuadro button {
+    margin-top: 4rem;
+    background: #2448C8;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    font-family: Roboto, 'sans-serif';
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+.login_container-reporte-jefe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../imagenes/fondoGris.png');
+    height: 90vh;
+    font-family: 'Roboto';
+    position: relative;
+    overflow: hidden;
+}
+
+.solicitud-cita-caj-cuadro-reportes-venta-jefa{
+    margin-top: 2rem;
+    background-color: white;
+    width: 68rem;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+ 
+
+.solicitud-cita-caj-cuadro-titulo1-reportes-venta-jefa {
+    margin-top: 0rem;
+    background-color: #2448C8;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0.5rem;
+}
+
+.solicitud-cita-caj-tabla-titulo{
+    font-size: 20px;
+}
+
+.solicitud-cita-caj-cuadro-datos-reportes-venta-jefa {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+
+}
+
+.solicitud-cita-caj-tabla-titulo-reportes-venta-jefa{
+    font-size: 18px;
+}
+
+.solicitud-cita-caj-tabla-reportes-venta-jefa td{ 
+   height: 2rem;
+   text-align: center;
+   padding-top: 2rem;
+}
+
+.botones-alquiler-jefa{
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+}
+
+.btn-volverEntradaSalida {
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #2448C8;
+    padding: 0.5rem 1.5rem;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2448C8;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.boton-volver-Reportes-PDF-venta-jefa {
+    margin:1rem ;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    background: green;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding: .5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor-botones{
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+}

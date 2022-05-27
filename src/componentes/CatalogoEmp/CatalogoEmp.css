@@ -1,0 +1,11 @@
+.Añadir button{
+    background: #2448C8;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    font-family: Roboto, 'sans-serif';
+    border: none;
+    cursor: pointer;
+    }

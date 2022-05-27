@@ -1,0 +1,106 @@
+.fondoverpropiedad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    background-image: url('../../imagenes/fondoGris.png');
+    height: 90vh;
+    font-family: 'Roboto';
+    position: relative;
+    overflow: hidden;
+
+}
+.cuadropropiedad{
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    background-attachment: fixed;
+    overflow: scroll;
+    border-radius: 0.5rem;
+    
+
+}
+
+.sector1 {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.imagenverpropiedad {
+    width: 55%;
+   }
+
+.imagenverpropiedad img{
+ width: 100%;
+}
+
+.datosverpropiedad {
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+}
+
+.datossecundarios {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.datossecundarios p{
+    margin: 0.5rem;
+    font-size: 20px;
+    
+}
+
+
+.titulopropiedad{
+    font-size: 30px;
+    text-align: center;
+    background-color: #2448C8;
+    color: white;
+    padding: 0.5rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.datosverpropiedad button{
+    background: #2448C8;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    font-family: Roboto, 'sans-serif';
+    border: none;
+    cursor: pointer;
+   
+ }
+.descrip {
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+ .sector2 {
+     margin: 0.5rem
+ }
+ 
+.verpropiedadbotonvc {
+    width: 80%;
+    height: 10%;
+}
+#volveracatalogo {
+    background: #2448C8;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    font-family: Roboto, 'sans-serif';
+    border: none;
+    cursor: pointer;
+
+ }
+

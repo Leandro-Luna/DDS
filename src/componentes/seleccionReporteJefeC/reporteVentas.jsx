@@ -1,0 +1,213 @@
+import React from 'react';
+
+function formatoFecha(vista){
+    switch (vista) {
+        case 'Dia':
+            return ('99/99/9999')
+        case 'Mes':
+            return ('99/9999')
+        case 'Año':
+            return ('9999')
+    }
+}
+
+const ReporteVentas = ({vista}) => {
+    return (
+
+    <table className='solicitud-cita-caj-tabla'>
+        <tbody>
+            <tr className='solicitud-cita-caj-tabla-titulo'>
+                
+                <th>{vista}</th>
+                <th>Propiedad</th>
+                <th>Direccion</th>
+                <th>Agente</th>
+                <th>Locatario</th>
+                <th>Monto</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+            <tr>
+                <td>{formatoFecha(vista)}</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxxxx</td>
+                <td>$9999999</td>
+            </tr>
+
+
+
+
+        </tbody>
+    </table>
+    )
+}
+export default ReporteVentas

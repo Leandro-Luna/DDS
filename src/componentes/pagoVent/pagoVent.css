@@ -1,0 +1,124 @@
+.fondo-form-pago {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../imagenes/fondoGris.png');
+    height: 200vh;
+    font-family: 'Roboto';
+}
+
+.cuadro-Formulario-pago {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 33%;
+    height: 90%;
+    border-radius: 0.5rem;
+}
+
+.selectAltura1 {
+    height: 2rem;
+    font-size: 14px;
+    width: 20rem;
+    border-color: lightgray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-style:solid;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+.titulo-formulario-pago{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2448C8;
+    color: white;
+    width: 100%;
+    height: 5%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.cuerpo-formulario-pago {
+    height: 85%;
+    width: 100%;
+}
+
+
+.cuerpo-formulario-completo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 60%;
+    gap: 0.8rem;
+    font-size: 19px;
+}
+
+.cuerpo-formulario-completo input {
+    height: 2.2rem;
+    font-size: 14px;
+    width: 20rem;
+    border-color: lightgray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-style:solid;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+.label-prop{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.label-precio {
+    margin-bottom: 1rem;
+}
+
+.labels-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.btn-container-pago{
+    width: 30%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.boton-volver-Menu-cajera {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #2448C8;
+    padding: .5rem 1rem;
+    border: 1px solid #2448C8;
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+
+.cuerpo-form-boton-cajera {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    background: #2448C8;
+     border-radius: 10px;
+     font-weight: 500;
+     font-size: 20px;
+     color: #fff;
+     padding: .5rem 1.5rem;
+     border: none;
+     cursor: pointer;
+ }

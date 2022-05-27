@@ -1,0 +1,107 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+.acitividades-dia td{
+    height: 2rem;
+    text-align: center;
+}
+
+.agenda-jefeComer-actividades{
+    background-color: #fff;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.acti-y-calendario{
+    width: 130rem;
+    height: 30rem; 
+}
+.contenedor {
+    display: flex;
+}
+  
+.actividades {
+border-radius: 10px;
+width: 40rem;
+height: 30rem;
+float: right;
+margin-right: 15rem;
+}
+.jefecomer-cuadro{
+    width: 50rem;
+    height: 30rem; 
+    float: left;
+    margin-left: 15rem;
+}
+.actividades-titulo, .jefecomer-titulo{
+    width: 100%;
+    height: 10%;
+    background-color: #2448C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px; 
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.jefecomer-calendario {
+    max-width: 100%;
+}
+
+.jefecomer-calendario table {
+    height: 29.5rem;
+}
+
+.e-calendar .e-content td:hover span.e-day, .e-calendar .e-content td:focus span.e-day, .e-bigger.e-small .e-calendar .e-content td:hover span.e-day, .e-bigger.e-small .e-calendar .e-content td:focus span.e-day {
+    background-color: white;
+    border: 2px solid;
+    color: #2448C8;
+}
+.e-calendar .e-content td.e-focused-date.e-today span.e-day {
+    background-color: #2448C8;
+    color: #fff;
+}
+.e-calendar .e-btn.e-today.e-flat.e-primary, .e-calendar .e-css.e-btn.e-today.e-flat.e-primary {
+    color: #2448C8;
+}
+.e-calendar .e-header span, .e-bigger.e-small .e-calendar .e-header span {
+    border: 1px solid;
+    color: #2448C8;
+}
+.e-calendar .e-header .e-title, .e-bigger.e-small .e-calendar .e-header .e-title {
+    color: black;
+    font-size: 20px;
+}
+
+.btn-volver3 button {
+    margin-top: 6rem;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #2448C8;
+    padding: 1rem 1.5rem;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2448C8;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+}
+.login_container-agenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-image: url('../../imagenes/fondoGris.png');
+    height: 100vh;
+    font-family: 'Roboto';
+    position: relative;
+    overflow: hidden;
+}
+.btn-volver3 a{
+    text-decoration: none;
+}

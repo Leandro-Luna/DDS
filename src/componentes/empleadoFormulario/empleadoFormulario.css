@@ -1,0 +1,112 @@
+.fondo-form-emp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../imagenes/fondoGris.png');
+    height: 150vh;
+    font-family: 'Roboto';
+}
+
+.cuadro-form-emp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30rem;
+    height: 90%;
+    border-radius: 0.5rem;
+
+}
+
+.titulo-form-emp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2448C8;
+    color: white;
+    width: 100%;
+    padding: 0.5rem;
+    height: 15%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+}
+.titulo-form-emp h1 {
+    font-weight: 400;
+}
+
+.cuerpo-form-emp {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+}
+
+
+.cuerpo-form-emp-formulario {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    gap: 0.8rem;
+}
+
+.cuerpo-form-emp-formulario label{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.cuerpo-form-emp-formulario input {
+    height: 2rem;
+    font-size: 13px;
+    width: 25.5rem;
+    border-color: lightgray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-style:solid;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.boton-emp-reg {
+    display: flex;
+    background: #2448C8;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-volver {
+    display: flex;
+    width: 30rem;
+    height: 5%;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.btn-volver button {
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #2448C8;
+    padding: 0.5rem 1.5rem;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2448C8;
+    font-weight: 500;
+    cursor: pointer;
+}

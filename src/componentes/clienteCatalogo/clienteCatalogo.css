@@ -1,0 +1,71 @@
+
+.fondo{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../../imagenes/fondoGris.png');
+    background-attachment: fixed;
+    overflow: scroll;
+    height: 90vh;
+    font-family: 'Roboto';
+}
+
+.filtro {
+    margin-top: 5rem;
+    background-color: white;
+    margin-left: 3rem;
+    height: 30rem;
+    width: 15rem;
+    padding: 1rem;
+    
+}
+.filtro div {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.filtro label{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.filtro input {
+    width: 2rem;
+}
+.filtros2 {
+    margin-top: 2rem;
+    display: flex;
+    align-content: space-around;
+}
+.filtros1{
+    margin-top: 2rem;
+}
+.der input{
+    margin-left: 0.5rem;
+    width: 4rem;
+}
+
+.cajaboton {
+    background-color: aqua;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.filtros3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+#aplicarfiltro {
+    background-color: #2448C8;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    height: 2.5rem;
+    width: 9rem;
+    border-width: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
