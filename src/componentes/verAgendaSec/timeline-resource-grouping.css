@@ -1,0 +1,27 @@
+.control-wrapper{
+    width: 90%;
+    height: 100%;
+    margin-left: 15% ;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+.timeline-resource-grouping.e-schedule:not(.e-device) .e-agenda-view .e-content-wrap table td:first-child {
+    width: 60px;
+}
+
+.timeline-resource-grouping.e-schedule .e-agenda-view .e-resource-column {
+    width: 100px;
+}
+/* .col-lg-12 control-section{
+    width: 80rem;
+} */
+/* .col-lg-12 control-section{
+    margin-left: auto;
+    margin-right: auto;
+} */
+.e-header-popup{
+    left: 80% !important;
+    top: 5% !important;
+    z-index: 1000000002;
+}

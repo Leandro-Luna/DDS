@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CalendarComponent } from '@syncfusion/ej2-react-calendars';
 import './seguimientoJefeComer.css';
-
+import MonthAgendaView from './monthAgendaView'
 const SeguimientoJefeComer = () => {
   const [date, setdata] = useState(new Date());
 
   return (
     <div className="contenedor">
       <div className="login_container-agenda">
-        <div className="acti-y-calendario">
+        {/* <div className="acti-y-calendario">
             <div className="jefecomer-cuadro">
             <div className="jefecomer-titulo">Calendario</div>
             <div className="jefecomer-datos">
@@ -175,7 +175,8 @@ const SeguimientoJefeComer = () => {
                     </table>
                 </div>
             </div>
-        </div>
+        </div> */}
+        <MonthAgendaView />
         <div className="btn-volver3">
           <Link to="/menuJefeComer">
             <button>Volver al menú</button>
