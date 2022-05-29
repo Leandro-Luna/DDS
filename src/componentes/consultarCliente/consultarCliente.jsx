@@ -34,7 +34,7 @@ const ConsultarCliente = () => {
               {(opt.value == 3) && <HistoricoClientes />}
               </div>
             </div>
-            <Link to='/menuJefeComer'><button className='boton-volver-Menu'> Volver al Menu </button></Link>
+            <Link to='/menuJefeComer'><button className='boton-volver-Menu-cajera'> Volver al Menu </button></Link>
         </div>
     )
   }

@@ -52,7 +52,7 @@
     background-image: url('../../imagenes/fondoGris.png');
     height: 100vh;
     font-family: 'Roboto';
-    position: relative;
+    position: absolute;
     overflow: hidden;
 }
 .btn-volver3 a{

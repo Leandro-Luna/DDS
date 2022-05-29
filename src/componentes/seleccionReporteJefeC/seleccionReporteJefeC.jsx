@@ -65,7 +65,7 @@ const SeleccionReporteJefeC = () => {
               </div>
             </div>
             <div className="botones">
-            <Link to='/menuJefeComer'><button className='boton-volver-Menu'> Volver al Menu </button></Link>
+            <Link to='/menuJefeComer'><button className='boton-volver-Menu-cajera'> Volver al Menu </button></Link>
             {(tipo.value>0)?
             <Link to={archivoReporte(tipo.value)} target="_blank" download><button className='boton-imprimir-descargar'> Descargar reporte </button></Link>
             : <button className='boton-imprimir-descargar' > Descargar reporte </button>}
