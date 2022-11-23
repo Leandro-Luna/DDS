@@ -8,7 +8,7 @@ import axios from 'axios'
 const AgenteVerPropiedad = () => {
   
   let [propiedad,setPropiedad]=useState({})
-  let{id}=useParams()
+  let{id}=useParams() //Saco el id del link donde estoy parado
 useEffect(()=>{
   const prop= async (cod)=>{
     const info =await axios.get(`http://localhost:3001/propiedades?cod_inmueble=${cod}`)
@@ -46,8 +46,6 @@ useEffect(()=>{
 
 
                             <p> Nombre cliente: {propiedad.cliente?.nombre_cliente} {propiedad.cliente?.apellido_cliente} </p> 
-
-
 
                             <p> DNI: {propiedad.cliente?.dni_cliente}      </p>  
 

@@ -52,7 +52,8 @@ const propiedades=[
 
 const CatalogoEmp = () => {
     const [propiedadesDB,setPropiedadesDB]=useState()
-    useEffect(()=>{
+
+    useEffect(()=>{ //Su funcion es hacer el pedido de todas las propiedades cuando se entra a la pagina
         const DB=async ()=>{
             const info=await axios.get('http://localhost:3001/propiedades')
             setPropiedadesDB(info.data)  
@@ -125,14 +126,13 @@ const CatalogoEmp = () => {
                     
                     {
                         propiedadesDB?
-                            propiedadesDB.all.map((item,index)=>{
-                            return(
+                            propiedadesDB.all.map((item,index)=>{ //Recorro todas las propiedades y voy asignando a cada cartel, los datos de la propiedad del catalogo
+                            return( 
                                 < AgentePropiedades key={index} imagen={`http://localhost:3001/${item.cod_inmueble}tpi.png`} cod_inmueble={item.cod_inmueble} estado={item.opcion_contrato} precio={'$'+item.precio}/>
                             )
                             }) 
                         :null
                     }
-                    < AgentePropiedades  imagen={propiedades[0].imagen} cod_inmueble={'999'} estado={propiedades[0].estado} precio={propiedades[0].precio}/>
                     
             </div>
          

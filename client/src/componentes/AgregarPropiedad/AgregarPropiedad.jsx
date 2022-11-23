@@ -36,10 +36,16 @@ const verificacion=(input)=>{
 
 
 const AgregarPropiedad = () => {
-        const navigate = useNavigate();
-        const [errores,setErrores]=useState({})
+        const navigate = useNavigate(); //Movernos de pantallaa a pantalla
+
         const [verificar,setVerificar]=useState(0)
-        const [input, setInput]= useState({
+        //0: no se hizo la verificacion
+        //1: el cliente no esta registrado
+        //2: el cliente esta registrado
+
+
+
+        const [input, setInput]= useState({      //ESTADO para guardar TODO
                 cod_inmueble:'',
                 tipo:'',
                 precio:0,
@@ -64,7 +70,7 @@ const AgregarPropiedad = () => {
                 correo_cliente:'',
                 
         })
-        const [cliente,setCliente]=useState({
+        const [cliente,setCliente]=useState({ //ESTADO para guardar TODO DEL CLIENTE
                 dni_cliente:0,
                 numero_cliente:0,
                 nombre_cliente:'',
@@ -73,16 +79,16 @@ const AgregarPropiedad = () => {
                 telefono_cliente:0,
                 direccion_cliente:'',
                 correo_cliente:'',
-              })
+        })
         
         const [file,setFile]=useState(null)
 
         
-         const onClickVerificar=async (e)=>{
+        const onClickVerificar=async (e)=>{
                 e.preventDefault()
                 if(cliente.dni_cliente!==''){
-                        const info= await axios.get(`http://localhost:3001/cliente?dni=${cliente.dni_cliente}`)
-                        if(info.data){
+                        const info= await axios.get(`http://localhost:3001/cliente?dni=${cliente.dni_cliente}`) //Peticion al backend
+                        if(info.data){ //SI TIENE ALGO
                                 
                                 setCliente({
                                         dni_cliente:info.data.dni_cliente,
@@ -129,7 +135,7 @@ const AgregarPropiedad = () => {
  
 
         
-        const onChangeCliente=(e)=>{
+        const onChangeCliente=(e)=>{            //asociado a cualquier cambio del input de cliente
                 e.preventDefault()
                 setCliente({
                         ...cliente,
@@ -144,7 +150,7 @@ const AgregarPropiedad = () => {
         const onChangeInput=async (e)=>{
                 e.preventDefault()
                 if(e.target.name==='cod_inmueble'){
-                        if(!isNaN(parseInt(e.target.value) || e.target.value==='') ){
+                        if(!isNaN(parseInt(e.target.value) || e.target.value==='') ){ //DEJA ESCRIBIR SOLO 3 NUMEROS
                                 setInput({
                                         ...input,
                                         [e.target.name]:e.target.value
@@ -160,12 +166,12 @@ const AgregarPropiedad = () => {
         }
         const onSubmitInput= async (e)=>{
                 e.preventDefault()
-                let bandera=false
+                let bandera=false //Agregar la coma
                 input.dni_cliente=cliente.dni_cliente
                 let error=verificacion(input)
-                let salida='Tiene los siguientes errores: '
+                let salida='Tiene los siguientes errores:  '
                 
-                for (const prop in error){
+                for (const prop in error){  //VERIFICA los datos
 
                         if(error[prop][0]){
                                 if(!bandera){
@@ -177,20 +183,20 @@ const AgregarPropiedad = () => {
                
 
 
-                if(salida!=='Tiene los siguientes errores: '){
+                if(salida!=='Tiene los siguientes errores:  '){
                       return  alert(salida)
                 }else {
                         if (!file){
-                        alert('You must upload file')
+                        alert('Necesitas subir una foto')  //Controla que necesita una imagen si o si
                         
                         }else {
                                 const info=await axios.get(`http://localhost:3001/propiedades?id=${input.cod_inmueble}`)
 
-                                if(info.data) return alert('El codigo de inmueble ya esta ocupado')
+                                if(info.data) return alert('El codigo de inmueble ya esta ocupado') //SI me devuelve un TRUE significa que existe el cod_inmueble
                                 else {
                                     const formdata= new FormData()
-                                formdata.append('image', file)
-                                for (const data in input) {
+                                    formdata.append('image', file)
+                                for (const data in input) { //Anexa al objeto que tiene la iamgen, los demas datos de la pripiedad y del cliente, de a uno
                                         formdata.append(`${[data]}`,input[data])
                                 } 
                                 fetch('http://localhost:3001/propiedades', {
@@ -199,10 +205,10 @@ const AgregarPropiedad = () => {
                                         
                                 })
                                 .then(res=>res.text())
-                                .then(res=>console.log(res))
-                                .catch(err=>console.error(err))
+                                .then(res=>console.log(res)) //Muestra la respuesta
+                                .catch(err=>console.error(err)) //muestra si hay un error
                                 
-                                document.getElementById('fileinput').value=null
+                                document.getElementById('fileinput').value=null 
 
                                 setFile(null)
                                 }
